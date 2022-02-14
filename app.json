@@ -2,7 +2,7 @@
   "expo": {
     "name": "IRABANK PAY AGENT",
     "slug": "irabank_agent",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +24,9 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.irabankpay.agent"
+      "package": "com.irabankpay.agent",
+      "versionCode":2,
+      "permissions":["Camera","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","INTERNET","SYSTEM_ALERT_WINDOW","VIBRATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
